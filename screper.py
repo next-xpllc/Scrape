@@ -21,8 +21,8 @@ LOGIN_URL = "https://altenens.is/login/login"
 LOGIN_PAGE = "https://altenens.is/login"
 FORUM_URL = "https://altenens.is/forums/accounts-and-database-dumps.45/"
 OUTPUT_FILE = "Altenensfreshcc.txt"           # ← Ton fichier de sortie
-MAX_PAGES = 2000                               # Change si tu veux moins
-THREADS_PER_PAGE = 5                           # 5 threads en parallèle = rapide et safe
+MAX_PAGES = 2000000                              # Change si tu veux moins
+THREADS_PER_PAGE = 100                         # 5 threads en parallèle = rapide et safe
 # ====================================================
 
 # 30 User-Agents variés (anti-détection)
